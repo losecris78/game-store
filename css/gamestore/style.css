@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #184f7c;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+header nav li a{
+    color:#ecf0f1;
+    text-decoration: none;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 25px 5px;
+
+}
+#hero .container{
+    display:flex;
+}
+#brands img{
+    height: 27px;
+}
+#brands ul{
+    display: flex;
+    justify-content: space-between;
+}
+#brands ul li{
+    list-style: none;
+    padding: 15px;
+}
+#socialm ul li a img{
+    height: 17px;
+}
+footer{
+    background-color: #184f7c;
+    color:#ecf0f1;
+}
