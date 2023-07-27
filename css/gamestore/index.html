@@ -7,20 +7,21 @@
     <title>Gamestore</title>
 </head>
 <body>
-    <header><div class=".container">
+    <header><div class="container">
         <h1>Game shop</h1>
         <nav>
             <ul>
-                <li> <a href="#">Sobre a loja</a></li>
-                <li><a href="#">Contato</a></li>
+                <li> <a href="#brands">Sobre a loja</a></li>
+                <li><a href="#fale">Contato</a></li>
             </ul>
         </nav>
     </div>
 
     </header>
     <main>
+        
         <section id="hero">
-            <div class=".container">
+            <div class="container">
                 <img src="images/loja.jpg" alt="Foto da loja">
                 <div id="brands">
                     <h2>Sobre a loja</h2>
@@ -34,15 +35,20 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class=".container">
-                <div>
+        
+        <section id="grid">
+            <div class="container">
+                <div id="fale">
                     <h3>Fale conosco</h3>
                     <form action="post">
-                        <input type="text" placeholder="Seu nome" required>
-                        <input type="email" name="" id="" placeholder="Seu email" required>
-                        <input type="tel" name="" id="" placeholder="Seu telefone">
-                        <textarea name="" id=""  required></textarea>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" placeholder="Seu nome" required><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" name="Seu email" id="email" placeholder="Seu email" required><br>
+                        <label for="tel">Telefone:</label><br>
+                        <input type="tel" name="Telefone (opcional)" id="tel" placeholder="Seu telefone"><br>
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea name="O teu mensagem" id="mensagem"  required></textarea><br>
                         <button type="submit">Enviar</button>
                     </form>
                 </div>
@@ -50,7 +56,7 @@
                     <h3>Nos acompanhe</h3>
                     <ul>
                         <li><a href="#"><img src="./images/instagram.png" alt="Logo Instagram"></a></li>
-                        <li><a href="#"><img src="images/facebook.png" alt="Logo facebook"></a></li>
+                        <li><a href="#"><img src="images/facebook.png" alt="Logo facebook"></a></li>                         
                         <li><a href="#"><img src="images/youtube.png" alt="Logo youtube"></a></li>
                     </ul>
                 </div>
@@ -60,10 +66,11 @@
                 </div>
             </div>
         </section>
+        
 
     </main>
     <footer>
-        <div class=".container">
+        <div class="container">
             <p>&copy; 2023 Game store Todos os direitos reservados</p>
         </div>
 

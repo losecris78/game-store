@@ -17,14 +17,21 @@ header nav li a{
     color:#ecf0f1;
     text-decoration: none;
 }
+header .container, #hero .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .container{
     max-width: 1280px;
     width: 100%;
     margin: 25px 5px;
-
+    
 }
-#hero .container{
-    display:flex;
+#hero .container p, h2{
+    align-items: flex-start;
+    margin-left: 17px;
 }
 #brands img{
     height: 27px;
@@ -43,4 +50,18 @@ header nav li a{
 footer{
     background-color: #184f7c;
     color:#ecf0f1;
+}
+#grid .container{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 20px;
+}
+#socialm ul{
+    list-style: none;
+}
+h1, h2, h3{
+    margin-bottom: 20px;
+}
+form input, form textarea, form button{
+    display: block;
 }
