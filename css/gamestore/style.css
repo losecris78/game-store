@@ -65,3 +65,15 @@ h1, h2, h3{
 form input, form textarea, form button{
     display: block;
 }
+form button{
+    background-color: #184f7cd2;
+    color: #fff;
+    border:none;
+    cursor: pointer;
+}
+input:focus, text-area:focus{
+    outline-color: #184f7cd2;
+}
+#social ul{
+    display: flex;
+}
