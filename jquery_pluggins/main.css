@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header, footer{
+    background-color: rgba(126, 114, 114, 0.875);
+    color:rgb(220, 220, 45);
+    padding: 25px 0;
+    margin: 25px auto;
+}
+footer p{
+    padding-left: 12px;
+}
+header h1{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+form{
+    padding:12px;
+    
+}
+form input{
+    width:30%
+}
+.campos{
+    margin: 8px 0;
+
+}
+form p{
+    margin-bottom: 16px;
+}
+form label{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 18px;
+    display: block;
+}
+
+form button{
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(23, 150, 108);
+    color:#fff;
+    width: 100%;
+    max-width: 150px;
+    margin:15px 0;
+    margin-left: 5%;
+    padding:5px;
+    cursor: pointer;
+}
+#endereco{
+    border:2px solid #7777;
+    padding: 8px;
+    margin: 5px;
+    display: flex;
+    
+}
+#endereco label{
+    margin-right: 10px;
+
+}
+#endereco input{
+    width: 100px;
+}
+#endereco h3{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 200;
+    justify-items: left;
+    align-items: start;
+    
+}
+#rua{
+    width: 300px;
+}
+span .obrigatorio{
+    color:rgb(145, 6, 6);
+}

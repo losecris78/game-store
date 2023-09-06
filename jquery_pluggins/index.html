@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário JQuery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    
+    
+</head>
+<body>
+    <header>
+        <h1>Formulário JQUERY</h1>
+    </header>
+    <div>
+        <form>
+            <p>Por favor insira os seguintes dados.
+                Os campos marcados * sao obrigatórios.
+            </p>
+            <div class="campos">
+                <label for="nome"><span class="obrigatorio">*</span>Nome</label>
+                <input type="text" name="nome" placeholder="Seu nome">
+
+            </div>
+            <div class="campos">
+                <label for="email"><span class="obrigatorio">*</span>E-mail</label>
+                <input type="text" name="email" placeholder="example@example.com">
+
+            </div>
+            <div class="campos">
+                <label for="telefone">Telefone</label>
+                <input type="text" name="tel" id="tel">
+
+            </div>
+            <div class="campos">
+                <label for="cpf"><span class="obrigatorio">*</span>CPF</label>
+                <input type="text" name="cpf" id="cpf">
+
+            </div>
+            <div id="endereco" class="campos">
+                <h3>Endereço:</h3>
+                <label for="logradouro">Logradouro</label>
+                <input type="text" id="rua" placeholder="Nome da rua">
+                <label for="numero">Número</label>
+                <input type="number">
+                <label for="complemento">Complemento</label>
+                <input type="text">
+                <label for="cep"><span class="obrigatorio">*</span>CEP</label>
+                <input type="text" name="cep" id="cep">
+
+            </div>
+            <button type="submit">Enviar</button>
+           
+            
+        </form>
+    </div>
+    <footer>
+        <p>&copy;2023 Cristian L Sedas | Todos os direitos reservados.</p>
+    </footer>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./js_plugins/jquery.mask.min.js"></script>
+    <script src="./js_plugins/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="./js_plugins/messages_pt_BR.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
